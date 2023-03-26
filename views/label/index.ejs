@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Label</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <% for (var i=0; i < labelData.length; i++) { %>
+        <p>
+            <%= labelData[i].id %>
+            <%= labelData[i].name %>
+            <%= labelData[i].sinceLocale%>
+            <%= labelData[i].city %>
+        </p>
+    <% } %>
+</body>
+
+</html>
